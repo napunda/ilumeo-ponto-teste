@@ -30,3 +30,14 @@ O arquivo `package.json` define os scripts disponíveis para executar diferentes
 | prepush | Executa a tarefa `lint` antes de um push. |
 | test | Executa todos os testes unitários. |
 | test:watch | Executa os testes unitários em modo watch, executando novamente os testes a cada alteração nos arquivos. |
+
+
+Para fazer testes para a api utilize o usuário e senha:
+
+{
+	"username": "napunda#",
+  "password": "napunda23"
+}
+
+As rotas principais da API estão disposta nessa collection do POSTMAN:
+[Link da Collection](https://api.postman.com/collections/30363557-9c0f1e29-2931-44d0-863f-4a263561334e?access_key=PMAT-01J3JB6SFR7C3GB21843B5TNF2)
