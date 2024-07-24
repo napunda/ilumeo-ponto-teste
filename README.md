@@ -1,12 +1,19 @@
-Ilumeo Ponto API - README
-Pré-requisitos
-Node.js e npm (ou yarn) instalados https://nodejs.org/en/download/package-manager
-Instalação
-Clone o repositório do projeto.
-Acesse a pasta do projeto.
-Execute o comando npm install para instalar as dependências do projeto.
-Scripts
-O arquivo package.json define os scripts disponíveis para executar diferentes tarefas do projeto. Utilize o comando npm run <script> para executar um script específico.
+
+# Ilumeo Ponto API - README
+
+## Pré-requisitos
+
+- Node.js e npm (ou yarn) instalados [Node.js Download](https://nodejs.org/en/download/package-manager)
+
+## Instalação
+
+1. Clone o repositório do projeto.
+2. Acesse a pasta do projeto.
+3. Execute o comando `npm install` para instalar as dependências do projeto.
+
+## Scripts
+
+O arquivo `package.json` define os scripts disponíveis para executar diferentes tarefas do projeto. Utilize o comando `npm run <script>` para executar um script específico.
 
 | Script | Descrição |
 |---|---|
