@@ -1,0 +1,16 @@
+services:
+  postgresql:
+    container_name: postgresql-container
+    image: 'bitnami/postgresql:latest'
+    environment:
+      - POSTGRESQL_USERNAME=${DB_USER}
+      - POSTGRESQL_PASSWORD=${DB_PASSWORD}
+      - POSTGRESQL_DATABASE=${DB_DATABASE}
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgresql_data:/bitnami/postgresql
+    restart: always
+
+volumes:
+  postgresql_data:
